@@ -56,7 +56,9 @@ h2 {
   text-align: center;
 }
 
-.contenedor-titulo a {
+.contenedor-titulo a,
+#sobre-mi a {
+  text-decoration: none;
   font-size: 14px;
   color: #ffffff;
   background: #5cb8ff;
@@ -72,4 +74,54 @@ p.logo {
 
 nav ul li a {
   color: #ffffff;
+}
+
+/*Sección sobre mi*/
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Bungee Shade', cursive;
+}
+
+#sobre-mi .contenedor-sobremi {
+  display: flex;
+  justify-content: space-around;
+}
+#sobre-mi .imagen-sobremi {
+  width: 40%;
+}
+#sobre-mi .texto {
+  width: 42%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Sección servicios*/
+
+.contenedor-servicios {
+  display: flex;
+  flex-wrap: wrap;
+}
+.servicio #wordpress-logo {
+  width: 40px;
+  height: 40px;
+}
+.servicio #npm-logo {
+  height: 32px;
+  width: 70px;
+}
+
+.servicio {
+  width: 24%;
+}
+
+.servicio h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.servicio p {
+  margin-bottom: 20px;
+  height: 194px;
 }
