@@ -101,6 +101,7 @@ h3 {
 
 .contenedor-servicios {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .servicio #wordpress-logo {
@@ -114,6 +115,9 @@ h3 {
 
 .servicio {
   width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .servicio h4 {
@@ -124,4 +128,61 @@ h3 {
 .servicio p {
   margin-bottom: 20px;
   height: 194px;
+}
+
+.contenedor-servicios .card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  box-shadow: 0 12px 30px 0 rgba(80, 85, 223, 0.37);
+  font-family: 'Open Sans', sans-serif;
+  /* font-weight: bold; */
+}
+.contenedor-servicios .card1 h4,
+.card2 h4,
+.card3 h4,
+.card4 h4,
+.card5 h4,
+.card6 h4 {
+  color: orangered;
+}
+.contenedor-servicios .card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p,
+.card6 p {
+  color: white;
+  font-size: 20px;
+}
+
+.contenedor-servicios .card1 {
+  background: url(./../Imagenes/card1.jpg);
+  background-size: cover;
+}
+.contenedor-servicios .card2 {
+  background: url(./../Imagenes/card4.jpg);
+  background-size: cover;
+}
+.contenedor-servicios .card3 {
+  background: url(./../Imagenes/card2.jpg);
+  background-size: cover;
+}
+.contenedor-servicios .card4 {
+  background: url(./../Imagenes/card3.jpg);
+  background-size: cover;
+}
+.contenedor-servicios .card5 {
+  background: url(./../Imagenes/card5.jpg);
+  background-size: cover;
+}
+.contenedor-servicios .card6 {
+  background: url(./../Imagenes/card6.jpg);
+  background-size: cover;
+}
+
+.icono {
+  float: right;
 }
