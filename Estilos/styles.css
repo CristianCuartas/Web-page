@@ -155,11 +155,11 @@ h3 {
 .card5 p,
 .card6 p {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .contenedor-servicios .card1 {
-  background: url(./../Imagenes/card1.jpg);
+  background: url(./../Imagenes/card6.jpg);
   background-size: cover;
 }
 .contenedor-servicios .card2 {
@@ -167,19 +167,19 @@ h3 {
   background-size: cover;
 }
 .contenedor-servicios .card3 {
-  background: url(./../Imagenes/card2.jpg);
+  background: url(./../Imagenes/card6.jpg);
   background-size: cover;
 }
 .contenedor-servicios .card4 {
-  background: url(./../Imagenes/card3.jpg);
+  background: url(./../Imagenes/card4.jpg);
   background-size: cover;
 }
 .contenedor-servicios .card5 {
-  background: url(./../Imagenes/card5.jpg);
+  background: url(./../Imagenes/card6.jpg);
   background-size: cover;
 }
 .contenedor-servicios .card6 {
-  background: url(./../Imagenes/card6.jpg);
+  background: url(./../Imagenes/card4.jpg);
   background-size: cover;
 }
 
