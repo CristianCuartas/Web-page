@@ -15,6 +15,7 @@ header .contenedor {
 header .lista-menu {
   display: flex;
 }
+
 header ul li {
   list-style: none;
   margin-right: 15px;
@@ -38,6 +39,7 @@ header {
   max-width: 1580px;
   width: 100%;
 }
+
 h1 {
   font-size: 60px;
   color: #ffffff;
@@ -89,9 +91,11 @@ h3 {
   display: flex;
   justify-content: space-around;
 }
+
 #sobre-mi .imagen-sobremi {
   width: 40%;
 }
+
 #sobre-mi .texto {
   width: 42%;
   font-family: 'Open Sans', sans-serif;
@@ -104,10 +108,12 @@ h3 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .servicio #wordpress-logo {
   width: 40px;
   height: 40px;
 }
+
 .servicio #npm-logo {
   height: 32px;
   width: 70px;
@@ -140,6 +146,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   /* font-weight: bold; */
 }
+
 .contenedor-servicios .card1 h4,
 .card2 h4,
 .card3 h4,
@@ -148,6 +155,7 @@ h3 {
 .card6 h4 {
   color: orangered;
 }
+
 .contenedor-servicios .card1 p,
 .card2 p,
 .card3 p,
@@ -162,22 +170,27 @@ h3 {
   background: url(./../Imagenes/card6.jpg);
   background-size: cover;
 }
+
 .contenedor-servicios .card2 {
   background: url(./../Imagenes/card4.jpg);
   background-size: cover;
 }
+
 .contenedor-servicios .card3 {
   background: url(./../Imagenes/card6.jpg);
   background-size: cover;
 }
+
 .contenedor-servicios .card4 {
   background: url(./../Imagenes/card4.jpg);
   background-size: cover;
 }
+
 .contenedor-servicios .card5 {
   background: url(./../Imagenes/card6.jpg);
   background-size: cover;
 }
+
 .contenedor-servicios .card6 {
   background: url(./../Imagenes/card4.jpg);
   background-size: cover;
@@ -185,4 +198,46 @@ h3 {
 
 .icono {
   float: right;
+}
+
+/* SECCIÓN MIS TRABAJOS */
+button.owl-prev,
+button.owl-next {
+  font-size: 60px !important;
+}
+
+span {
+  color: cornflowerblue;
+}
+
+.item {
+  width: 150px;
+}
+
+.contenedor-mistrabajos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-perfilGith {
+  width: 10%;
+}
+
+.contenedor-mistrabajos .texto {
+  width: 42%;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 60px;
+}
+
+#gitHubLogo {
+  width: 60px;
+  margin-left: 250px;
+}
+
+#link-github {
+  margin-left: 120px;
+  text-decoration: none;
+  font-family: 'Monoton', cursive;
+  color: #571AF9;
+  font-size: 30px;
 }

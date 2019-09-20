@@ -1,149 +1,213 @@
 <!DOCTYPE html>
 <!-- DOC => Documento TYPE=> Tipo de documento-->
 <html lang="es">
-  <head>
-    <!-- Dentro de las etiquetas <head> se almacenan los Links Externos.-->
 
-    <link rel="stylesheet" href="./Estilos/styles.css" />
-    <!--Las etiquetas tiene atributos "rel" "href"-->
+<head>
+  <!-- Dentro de las etiquetas <head> se almacenan los Links Externos.-->
 
-    <meta charset="utf-8" />
-    <!-- Tipo de codificación en la que estamos trabajando.-->
+  <link rel="stylesheet" href="./Estilos/styles.css" />
+  <!--Las etiquetas tiene atributos "rel" "href"-->
 
-    <title>Página web</title>
+  <meta charset="utf-8" />
+  <!-- Tipo de codificación en la que estamos trabajando.-->
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Megrim&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Dentro del body va todo el contenido de la página.-->
-    <header>
-      <div class="menu">
-        <div class="contenedor">
-          <p class="logo">CRISTIAN HERNANDEZ</p>
-          <nav>
-            <ul class="lista-menu">
-              <li><a href="">Sobre mi</a></li>
-              <li><a href="">Servicios</a></li>
-              <li><a href="">Mis trabajos</a></li>
-              <li><a href="">¿Por qué trabajar conmigo?</a></li>
-              <li><a href="">Contacto</a></li>
+  <title>Página web</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Megrim&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="Owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="Owl/owl.theme.default.min.css">
+  <!--Libreria Owl Carrusel -->
+</head>
+
+<body>
+  <!-- Dentro del body va todo el contenido de la página.-->
+  <header>
+    <div class="menu">
+      <div class="contenedor">
+        <p class="logo">CRISTIAN HERNANDEZ</p>
+        <nav>
+          <ul class="lista-menu">
+            <li><a href="">Sobre mi</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Mis trabajos</a></li>
+            <li><a href="">¿Por qué trabajar conmigo?</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="contenedor" id="contenedor-titulo-flex">
+      <div class="contenedor-titulo">
+        <h1>Cristian Hernandez</h1>
+        <h2>Desarrollador de software</h2>
+        <a href="">VER MIS TRABAJOS</a>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- La etiqueta <header> es de encabezado.-->
+  <main>
+    <section id="sobre-mi">
+      <div class="contenedor">
+        <h3>Sobre mi</h3>
+        <div class="contenedor-sobremi">
+          <div class="imagen-sobremi">
+            <img src="./Imagenes/gifIdea.gif" alt="">
+          </div>
+          <div class="texto">
+            <p>Mi nombre es Cristian y tengo 19 años, un chico joven y apasionado por colocar en marcha de mis ideas,
+              me gusta la lectura y la constate actualización de conocimientos, mantener conversaciones con otras
+              personas
+              además me ayuda a fortalecer mis conocimientos y mejorar habilidades en la interacción con los demás.
+              Mi percepción del mundo se da de maneras diversas, me gusta concebir el mundo desde posiciones filosóficas
+              y
+              raciocinios objetivos que permitan liberar prejuicios en las personas; vivo pensando en el crecimiento
+              personal y social
+              aportando con lo qué conforma mis diferentes facetas de vida.
+            </p>
+            <p>
+              Me dedico actualmente al desarrollo de software como programador web, empleando las últimas tecnologías
+              JavaScript
+              con uno de sus frameworks React JS, además del manejo de Wordpress, HTML y CSS3. En mi entorno uso
+              manejadores de paquetes
+              y repositorios en la nube GitHub, además de hacer deployment a servidores online para qué pueda visualizar
+              el trabajo que se
+              desarrolla. Si estas buscando hacer una página web con las últimas tecnologías
+              realmente brillante, funcional y a tu gusto entonces
+              llegaste al lugar correcto.
+            </p>
+            <p>
+              Podrás ponerte en contacto conmigo a través de mi correo electrónico o completando el formulario de
+              contacto aquí mismo en mi página web,
+              yo me encargo del resto.
+            </p>
+            <a href="">VER MIS TRABAJOS</a>
+          </div>
+        </div>
+      </div>
+      <!-- Sección servicios -->
+    </section>
+    <section id="servicios">
+      <div class="contenedor">
+        <h3>Servicios</h3>
+        <div class="contenedor-servicios">
+          <div class="servicio card1">
+            <h4>Diseño Web</h4>
+            <p>Páginas web que resalten lo que deseas inspirar,
+              desarrollaré tu idea. La importancia del diseño web es fundamental
+              para tener éxito y atraer a las personas creándole una experencia dentro dentro del sitio.
+            </p>
+            <img src="./Imagenes/html-logo.png" alt="" class="icono">
+          </div>
+          <div class="servicio card2">
+            <h4>Responsive desing</h4>
+            <p>El diseño web adaptable, es una filosofía de diseño y desarrollo cuyo objetivo es
+              adaptar la apariencia de las páginas web al dispositivo que se esté utilizando para visitarlas.
+            </p>
+            <img src="./Imagenes/css-logo.png" alt="" class="icono">
+          </div>
+          <div class="servicio card3">
+            <h4>SEO</h4>
+            <p>El posicionamiento en buscadores, optimización en motores de búsqueda es un conjunto
+              de acciones orientadas a mejorar el posicionamiento de un sitio web en la lista de
+              resultados de Google, Bing, u otros buscadores de internet.​
+            </p>
+            <img src="./Imagenes/wordpress-logo.png" alt="" id="wordpress-logo" class="icono">
+          </div>
+          <div class="servicio card4">
+            <h4>Gestión de paquetes</h4>
+            <p>Herramientas esenciales de desarrollo de JavaScript, npm es la herramienta
+              utilizada por más de 11,000,000 desarrolladores de JavaScript
+              en todo el mundo. Sus desarrolladores ya lo usan.
+            </p>
+            <img src="./Imagenes/npm-logo.png" alt="" id="npm-logo" class="icono">
+          </div>
+          <div class="servicio card5">
+            <h4>Platform as a Service</h4>
+            <p>Heroku es uno de los PaaS más utilizados en la actualidad en entornos
+              empresariales por su fuerte enfoque en resolver el despliegue de una aplicación.
+              Ademas te permite manejar los servidores y sus configuraciones, escalamiento y
+              la administración. A Heroku solo le dices qué lenguaje de backend estás utilizando
+              o qué base de datos vas a utilizar y te preocupas únicamente por el desarrollo de
+              tu aplicación.
+            </p>
+            <img src="./Imagenes/heroku-logo.png" alt="" class="icono">
+          </div>
+          <div class="servicio card6">
+            <h4>React JS</h4>
+            <p>React es una biblioteca Javascript para crear interfaces de usuario enfocada en la
+              visualización.
+            </p>
+            <img src="./Imagenes/react-logo.png" alt="" class="icono">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mis-trabajos">
+      <div class="contendor">
+        <h3>Mis trabajos</h3>
+        <!-- <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="Imagenes/perfil-github.PNG" />
+          </div>
+        </div> -->
+        <div class="contenedor-mistrabajos">
+          <div class="imagen-perfilGith">
+            <img src="./Imagenes/perfil-github.PNG" alt="">
+          </div>
+          <div class="texto">
+            <p>Te invito a visitar mis repositorios en GitHub donde pordras encontrar los trabajos
+              qué he realizado y los proyectos a los qué he brindado apoyo en su desarrollo.
+            </p>
+            <img src="Imagenes/github.png" id="gitHubLogo" />
+            <p>
+              <a href="https://github.com/CristianCuartas" target="_blank" id="link-github">Cristian Cuartas</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="contenedor">
+        <h3>¿Por qué trabajar conmigo?</h3>
+        <div class="contendor-trabajar">
+          <div class="item">
+            <ul>
+              <li></li>
             </ul>
-          </nav>
+          </div>
         </div>
       </div>
-      <div class="contenedor" id="contenedor-titulo-flex">
-        <div class="contenedor-titulo">
-          <h1>Cristian Hernandez</h1>
-          <h2>Desarrollador de software</h2>
-          <a href="">VER MIS TRABAJOS</a>
-        </div>
-        </div>
-      </div>
-    </header>
-    <!-- La etiqueta <header> es de encabezado.-->
-      <main>
-        <section id="sobre-mi">
-          <div class="contenedor">
-            <h3>Sobre mi</h3>
-            <div class="contenedor-sobremi">
-              <div class="imagen-sobremi">
-                <img src="./Imagenes/gifIdea.gif" alt="" >
-              </div>
-              <div class="texto">
-                <p>Mi nombre es Cristian y tengo 19 años, un chico joven y apasionado por colocar en marcha de mis ideas, 
-                  me gusta la lectura y la constate actualización de conocimientos, mantener conversaciones con otras personas 
-                  además me ayuda a fortalecer mis conocimientos y mejorar habilidades en la interacción con los demás.
-                  Mi percepción del mundo se da de maneras diversas, me gusta concebir el mundo desde posiciones filosóficas y 
-                  raciocinios objetivos que permitan liberar prejuicios en las personas; vivo pensando en el crecimiento personal y social
-                  aportando con lo qué conforma mis diferentes facetas de vida.  
-                </p>
-                <p>
-                  Me dedico actualmente al desarrollo de software como programador web, empleando las últimas tecnologías JavaScript 
-                  con uno de sus frameworks React JS, además del manejo de Wordpress, HTML y CSS3. En mi entorno uso manejadores de paquetes
-                  y repositorios en la nube GitHub, además de hacer deployment a servidores online para qué pueda visualizar el trabajo que se
-                  desarrolla. Si estas buscando hacer una página web con las últimas tecnologías 
-                  realmente brillante, funcional  y a tu gusto entonces 
-                  llegaste al lugar correcto.
-                </p>
-                <p>
-                  Podrás ponerte en contacto conmigo a través de mi correo electrónico o completando el formulario de contacto aquí mismo en mi página web,
-                  yo me encargo del resto. 
-                </p>
-                <a href="">VER MIS TRABAJOS</a>
-              </div>
-            </div>
-          </div>
-          <!-- Sección servicios -->
-        </section>
-        <section id="servicios">
-          <div class="contenedor">
-            <h3>Servicios</h3>
-            <div class="contenedor-servicios">
-              <div class="servicio card1">
-                <h4>Diseño Web</h4>
-                <p>Páginas web que resalten lo que deseas inspirar, 
-                  desarrollaré tu idea. La importancia del diseño web es fundamental
-                  para tener éxito y atraer a las personas creándole una experencia dentro dentro del sitio.
-                </p>
-                <img src="./Imagenes/html-logo.png" alt="" class="icono">
-              </div>
-            <div class="servicio card2">
-                <h4>Responsive desing</h4>
-                <p>El diseño web adaptable, es una filosofía de diseño y desarrollo cuyo objetivo es 
-                  adaptar la apariencia de las páginas web al dispositivo que se esté utilizando para visitarlas. 
-                </p>
-                <img src="./Imagenes/css-logo.png" alt="" class="icono">    
-              </div>
-            <div class="servicio card3">
-                <h4>SEO</h4>
-                <p>El posicionamiento en buscadores, optimización en motores de búsqueda es un conjunto 
-                  de acciones orientadas a mejorar el posicionamiento de un sitio web en la lista de 
-                  resultados de Google, Bing, u otros buscadores de internet.​ 
-                </p>
-                <img src="./Imagenes/wordpress-logo.png" alt="" id="wordpress-logo" class="icono">
-              </div>
-              <div class="servicio card4">
-                <h4>Gestión de paquetes</h4>
-                <p>Herramientas esenciales de desarrollo de JavaScript, npm es la herramienta 
-                  utilizada por más de 11,000,000 desarrolladores de JavaScript 
-                  en todo el mundo. Sus desarrolladores ya lo usan. 
-                </p>
-                <img src="./Imagenes/npm-logo.png" alt="" id="npm-logo" class="icono">           
-              </div>
-              <div class="servicio card5">
-                <h4>Platform as a Service</h4>
-                <p>Heroku es uno de los PaaS más utilizados en la actualidad en entornos 
-                  empresariales por su fuerte enfoque en resolver el despliegue de una aplicación. 
-                  Ademas te permite manejar los servidores y sus configuraciones, escalamiento y 
-                  la administración. A Heroku solo le dices qué lenguaje de backend estás utilizando
-                   o qué base de datos vas a utilizar y te preocupas únicamente por el desarrollo de 
-                   tu aplicación.
-                </p>
-                <img src="./Imagenes/heroku-logo.png" alt="" class="icono" >         
-              </div>
-              <div class="servicio card6">
-                <h4>React JS</h4>
-                <p>React es una biblioteca Javascript para crear interfaces de usuario enfocada en la 
-                  visualización.
-                </p>
-                <img src="./Imagenes/react-logo.png" alt="" class="icono">            
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <!-- Las tiquetas <main> idican lo principal-->
-  </body>
+    </section>
+  </main>
+  <!-- Las tiquetas <main> idican lo principal-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="Owl/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+</body>
+
 </html>
