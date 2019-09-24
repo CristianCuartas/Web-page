@@ -59,7 +59,10 @@ h2 {
 }
 
 .contenedor-titulo a,
-#sobre-mi a {
+#sobre-mi a,
+#blog a,
+#que-esperas a,
+#contacto input[type='submit'] {
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
@@ -238,6 +241,125 @@ span {
   margin-left: 120px;
   text-decoration: none;
   font-family: 'Monoton', cursive;
-  color: #571AF9;
+  color: #571af9;
   font-size: 30px;
+}
+
+/*SECCIÓN TRABAJAR CONMIGO*/
+.contendor-trabajar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#por-que-trabajar .item-trabajar {
+  width: 28%;
+  text-align: center;
+}
+
+#por-que-trabajar ul li {
+  list-style: none;
+}
+
+#por-que-trabajar ul li:nth-child(2) {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3) {
+  line-height: 31px;
+}
+
+/* SECCIÓN BLOG*/
+#blog {
+  background: #f9fafc;
+}
+
+#blog .contendor-publicaciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+#blog .publicacion {
+  width: 30%;
+  box-shadow: 1px 1px 14px #ccc;
+}
+#blog img {
+  width: 100%;
+}
+
+#blog .contenido {
+  background: white;
+  padding: 20px;
+}
+
+#blog h4 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#blog p {
+  color: #5a6169;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+#blog a {
+  width: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*SECCIÓN QUÉ ESPERAS*/
+
+#que-esperas {
+  background: linear-gradient(rgba(84, 93, 220, 0.94), rgba(96, 171, 245, 0.9));
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+#que-esperas h3 {
+  font-size: 30px;
+  color: white;
+}
+#que-esperas a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/*SECCIÓN CONTACTO*/
+
+#contacto form {
+  width: 77%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+}
+textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+}
+#contacto input[type='submit'] {
+  width: 166px;
+  margin: auto;
 }
