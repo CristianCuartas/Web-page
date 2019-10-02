@@ -22,15 +22,17 @@
   <link rel="stylesheet" href="Owl/owl.carousel.min.css">
   <link rel="stylesheet" href="Owl/owl.theme.default.min.css">
   <!--Libreria Owl Carrusel -->
-  <meta nmae="viewport" content="width=device-width, user-scalable=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 
 <body>
   <!-- Dentro del body va todo el contenido de la página.-->
+  <a target="_blank" id="whatsapp" href="https://wa.me/573213118257"><img src="./Imagenes/whatsapp.png" alt=""></a>
   <header>
     <div class="menu">
       <div class="contenedor">
         <p class="logo">CRISTIAN HERNANDEZ</p>
+        <img class="menu-icon" src="./Imagenes/menu.png" alt="">
         <nav>
           <ul class="lista-menu">
             <li><a href="#sobre-mi">Sobre mi</a></li>
@@ -246,15 +248,28 @@
         </form>
 
         <div class="contacto-info">
-          <div class="mail"></div>
-          <div class="whatsapp"></div>
-          <div class="github"></div>
-          <div class="linkedin"></div>
+          <div class="mail"><img src="./Imagenes/gmail.png" alt="">cristianhz1109@gmail.com</div>
+          <div class="linkedin"><img src="./Imagenes/linkedin.png" alt=""><a class="perfil-linkedin" href="https://www.linkedin.com/in/cristian-cuartas-hernandez-923314193/" target="_blank">Cristian Cuartas Hernandez</a></div>
+
         </div>
       </div>
     </section>
   </main>
   <!-- Las tiquetas <main> idican lo principal-->
+
+  <footer>
+    <div class="contendor">
+      <div class="redes">
+        <a href=""><img src="./Imagenes/github-logoF.png" alt="Imagen github"></a>
+        <a href=""><img src="./Imagenes/gmail.png" alt="Imagen gmail"></a>
+        <a href=""><img src="./Imagenes/linkedin.png" alt="Imagen linkedin"></a>
+      </div>
+      <div class="parrafo">
+      <img  id="footer-img" src="./Imagenes/footer-img-face.png" alt="Imagen RICK"></a>
+        <p id="footer-parrafo"> Cristian Hernandez | Análista de desarrollo - Técnico profesional en programación de software.</p>
+      </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="Owl/owl.carousel.min.js"></script>
@@ -298,6 +313,9 @@
         $(".menu a").css({"color":"#fff"});
         $(".logo").css({"color":"#fff"});
       }
+    })
+    $('.menu-icon').click(function(){
+      $('header nav').slideToggle();
     })
   })
   </script>
