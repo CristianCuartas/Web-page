@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="Owl/owl.carousel.min.css">
   <link rel="stylesheet" href="Owl/owl.theme.default.min.css">
   <!--Libreria Owl Carrusel -->
+  <meta nmae="viewport" content="width=device-width, user-scalable=no">
 </head>
 
 <body>
@@ -32,11 +33,11 @@
         <p class="logo">CRISTIAN HERNANDEZ</p>
         <nav>
           <ul class="lista-menu">
-            <li><a href="">Sobre mi</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Mis trabajos</a></li>
-            <li><a href="">¿Por qué trabajar conmigo?</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#mis-trabajos">Mis trabajos</a></li>
+            <li><a href="#por-que-trabajar">¿Por qué trabajar conmigo?</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -45,7 +46,7 @@
       <div class="contenedor-titulo">
         <h1>Cristian Hernandez</h1>
         <h2>Desarrollador de software</h2>
-        <a href="">VER MIS TRABAJOS</a>
+        <a href="#mis-trabajos">VER MIS TRABAJOS</a>
       </div>
     </div>
     </div>
@@ -86,7 +87,7 @@
               contacto aquí mismo en mi página web,
               yo me encargo del resto.
             </p>
-            <a href="">VER MIS TRABAJOS</a>
+            <a href="#mis-trabajos">VER MIS TRABAJOS</a>
           </div>
         </div>
       </div>
@@ -231,7 +232,7 @@
     <section id="que-esperas">
       <div class="contenedor">
         <h3>¿Qué esperas para tener tu página web?</h3>
-        <a href="">CHARLEMOS</a>
+        <a href="#contacto">CHARLEMOS</a>
       </div>
     </section>
     <section id="contacto">
@@ -243,6 +244,13 @@
         <textarea placeholder="Mensaje" name="Mensaje"></textarea>
         <input type="submit" value="ENVIAR MENSAJE">
         </form>
+
+        <div class="contacto-info">
+          <div class="mail"></div>
+          <div class="whatsapp"></div>
+          <div class="github"></div>
+          <div class="linkedin"></div>
+        </div>
       </div>
     </section>
   </main>
@@ -268,6 +276,30 @@
         }
       }
     })
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      scroll = $(window).scrollTop();
+      if (scroll > 100){
+        $(".menu").css({"position":"fixed"});
+        $(".menu").css({"width":"100%"});
+        $(".menu").css({"top":"0"});
+        $(".menu").css({"background":"#fff"});
+        $(".menu a").css({"color":"#000"});
+        $(".logo").css({"color":"#000"});
+        $(".menu").css({"box-shadow":"rgba(0,0,0,0.22) 6px 1px 1px"});
+        $(".menu").css({"z-inidex":"100vh"});
+      } else{
+        $(".menu").css({"position":"relative"});
+        $(".menu").css({"background":"transparent"});
+        $(".menu").css({"box-shadow":"0 0 0"});
+        $(".menu a").css({"color":"#fff"});
+        $(".logo").css({"color":"#fff"});
+      }
+    })
+  })
   </script>
 </body>
 
